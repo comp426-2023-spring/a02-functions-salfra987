@@ -1,0 +1,15 @@
+{
+  "name": "a02-functions-salfra987",
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "author": "salfra",
+  "type": "module",
+  "license": "GPL-3.0-or-later"
+}
