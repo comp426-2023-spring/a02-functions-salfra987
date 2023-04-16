@@ -11,5 +11,10 @@
   },
   "author": "salfra",
   "type": "module",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+	  "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.41",
+    "node-fetch": "^3.3.1"
+  }
 }
