@@ -32,6 +32,8 @@ console.log(data);
 process.exit(0);
 }
 
+console.log(data.daily.precipitation_hours[days] > 0 ? "You might need your galoshes " : "You will not need your galoshes ");
+
 if(days > 1){
 console.log("in " + days + " days.")
 } else if(days == 0){
